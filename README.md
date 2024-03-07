@@ -16,13 +16,13 @@
 Install using npm or yarn
 
 ```bash
-npm install --save react-notifications-menu
+npm install --save react-notifications-menu-gjayam
 ```
 
 or
 
 ```bash
-yarn add --save react-notifications-menu
+yarn add --save react-notifications-menu-gjayam
 ```
 
 ## Basic Usage
@@ -34,8 +34,8 @@ const Example = () => {
   return (
     <Notifications
       renderItem={CustomComponent}
-      classNamePrefix='okrjoy'
-      headerBackgroundColor='red'
+      classNamePrefix="okrjoy"
+      headerBackgroundColor="red"
     />
   );
 };
